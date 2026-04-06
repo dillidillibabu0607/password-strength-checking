@@ -1,0 +1,21 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #2193b0, #6dd5ed);
+}
+
+.container {
+  text-align: center;
+  background: rgba(255,255,255,0.15);
+  padding: 40px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  color: white;
+}
+
+#result {
+  font-weight: bold;
+  margin-top: 10px;
+}
